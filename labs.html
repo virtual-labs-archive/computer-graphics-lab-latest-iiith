@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Virtual Labs - Computer Science &amp; Engineering</title>
+    <link href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/skdslider.css" rel="stylesheet">
+        <link rel="stylesheet" href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/bootstrap.css">
+    <link rel="stylesheet" href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/main.css">
+    <link rel="stylesheet" href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/custom.css">
+    <link rel="stylesheet" href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/util.css">
+    <link href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/css_003.css" rel="stylesheet">
+    <link href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/css.css" rel="stylesheet">
+    <link href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/css_002.css" rel="stylesheet">
+    <link rel="stylesheet" href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/normalize.css">
+    <link rel="stylesheet" href="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/font-awesome.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://vlab.co.in/images/favicon/favicon.ico"></head>
+<body>
+<!--HEADER-->
+<!--HEADER-->
+    <section class="header"> 
+        <div class="container-fluid sm-hdr-top">
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-md-3 col-sm-6 col-xs-6" id="dtontop">1 Apr, 2019 | 7:24:08 PM</div>
+                    <div class="col-md-9 col-sm-6 col-xs-6">
+                        <div style="text-align: right;">Visitors &nbsp;<img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/counter.png" alt="vlab visitor" height="15" border="0"></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <header class="container hdr-logo">
+                <div class="row">
+                    <div class="col-md-8 col-lg-8  col-sm-12 col-xs-12">
+                         <h1 class="logo">
+                            <ul class="logo-ul">
+                                <li class="logo-img"> <a href="http://vlab.co.in/"><img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/logo.jpg"></a> <div class="hdr-logo-border"></div></li> 
+                                <li class="logo-text"><div class="logo-text-big">An Initiative of</div> <div style="font-weight: 600">Ministry of Human Resource Development<br><span style="font-weight: normal !important;">Under the National Mission on Education through <span style="color: red">ICT</span></span></div></li>
+                            </ul>
+                         </h1>
+                    </div> 
+                    <div class="col-md-4 col-sm-4 col-xs-12 hdr-search" "="">
+                    <form class="glb_search_frm" method="post" action="search">
+                       <input type="text" class="form-control gl-search" name="search_item" id="search-box" placeholder="Search Lab" autocomplete="off">
+                       <i class="fa fa-search search-icon"></i>
+                       <div id="suggesstion-box" style="overflow-y: auto;"></div>
+                    </form>
+                    </div> 
+                </div>
+            </header>
+                   <div class="fix-hdr affix-top">
+            <div class="container-fluid navWrap" style="background-color:#00446d;color: #fff;">
+                <div class="container">
+                   <nav class="navbar desk_nav"> 
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="http://vlab.co.in/">Home</a></li>
+                            <li><a href="http://vlab.co.in/about-us">About us</a></li>
+                            <li><a href="http://209.211.220.205/News.html" target="_blank">Newsletter</a></li>
+                            <li><a href="http://vlabs.iitb.ac.in/vlabs-dev/" target="_blank">New Lab Development</a></li>
+                            <li><a href="http://209.211.220.205/EOI_Jan_2019.pdf" target="_blank">Become Nodal Center</a></li>
+                            <li><a href="https://outreach.vlabs.ac.in/" target="_blank">Outreach Portal</a></li>
+                            <li><a href="http://vlab.co.in/participating-institutes">Participating Institutes</a></li>
+                            <li><a href="http://vlab.co.in/contact-us">Contact us</a></li>
+                        </ul>
+                    </nav> 
+                    <span class="hamburger" onclick="openNav()">☰</span>
+                    <div class="mobile_nav">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                                    <a href="http://vlab.co.in/">Home</a>
+                                    <a href="http://vlab.co.in/about-us">About us</a>
+                                    <a href="http://vlab.co.in/gallery">Gallery</a>
+                                    <a href="http://vlabs.iitb.ac.in/staging/vlabs-dev/" target="_blank">New Lab Development</a>
+                                    <a href="https://outreach.vlabs.ac.in/ncentres#/nodal-centers-list">Nodal Centers</a>
+                                    <a href="https://outreach.vlabs.ac.in/" target="_blank">Outreach Portal</a>
+                                    <a href="http://vlab.co.in/participating-institutes">Participating Institutes</a>
+                                    <a href="http://vlab.co.in/contact-us">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div> 
+    </section>
+    <!--HEADER ENDS-->
+ 
+<script async="" src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/analytics.js"></script><script type="text/javascript">
+    window.onload = setInterval(setDateTime,1000);
+    function setDateTime()
+    {
+        var d = new Date();
+        var date = d.getDate();
+        var year = d.getFullYear();
+        var month = d.getMonth();
+        var hours = d.getHours();
+        var mins = d.getMinutes();
+        var sec = d.getSeconds();
+        var AmPm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        mins = mins < 10 ? '0'+mins : mins;
+        sec = sec < 10 ? '0'+sec : sec;
+        var monthArr = ["Jan", "Feb","Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov","Dec"];
+        month = monthArr[month];
+        dttoshow=date+" "+month+", "+year+" | "+hours+":"+mins+":"+sec+" "+AmPm;
+        document.getElementById("dtontop").innerHTML=dttoshow;
+    }
+</script><!--HEADER ENDS-->
+<div class="container-fluid innerHead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h3 class="innerhead-text">Computer Science &amp; Engineering</h3>
+        </div>
+      </div>
+    </div>
+</div>
+<section> 
+  	<div class="container">
+        <div class="row"> 
+        	<div class="col-md-9">
+	        	<!-- Breadcums -->
+					<nav class="bradcums_vlab">
+						<a href="http://vlab.co.in/index.php">Home</a> » Broad Areas of Virtual Labs
+					</nav>
+				<!-- Breadcums End -->
+				  <div class="obj-heading-inner"> 
+
+			Labs ready for use
+
+			<div class="instruction"><i class="fa fa-info-circle" data-toggle="modal" data-target="#instruction" title="Click to view Instructions"></i></div>
+            <div id="instruction" class="modal fade" role="dialog" style="top:20%">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4 class="modal-title">Instruction</h4>
+                      </div>
+                      <div class="modal-body">
+                        <ol class="modal-body-list">
+                            <li>In order to derive maximum learning 
+experience, the users are advised to first read the instructions for 
+conducting the labs. There are 'step-by-step' instructions available in 
+each lab to assist the users.</li>
+                            <li>Some of the labs require the users to log in first. Eventually, there will be a common login for all labs.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://vlabs.iitkgp.ernet.in/scte/" target="_blank"><h4 style="color: #430079;">Soft Computing Tools in Engineering Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                    <span>No book found in record.</span>
+                                                               </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://vlabs.iitkgp.ernet.in/scte/" target="_blank">IIT KHARAGPUR</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://ps-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Problem Solving Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                    <span>No book found in record.</span>
+                                                               </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://ps-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse22-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Artificial Neural Networks Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Geotechnical Engineering by Tata Mc-Graw Hill </li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse22-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse20-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Pattern Recognition Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Physical Science: Concepts in Action
+by Michael Wysession, David Frank, and Sophia Yancopoulis</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse20-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse14-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">VLSI Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                    <span>No book found in record.</span>
+                                                               </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse14-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://coep.vlab.co.in/index.php?sub=29" target="_blank"><h4 style="color: #430079;">FPGA &amp; Embedded Systems Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Design with PIC Microcontrollers by John B. Peatman , Pearson.</li>
+                                                                       <li>Programming and Customizing the 8051 Microcontroller : Predko ; TMH.</li>
+                                                                       <li>Programming Embedded Systems in C and C++ : Michael Barr; SHROFF PUB. &amp; DISTR. ND.</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG / PG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://coep.vlab.co.in/index.php?sub=29" target="_blank">COE PUNE</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://vlabs.iitkgp.ernet.in/coa/" target="_blank"><h4 style="color: #430079;">Computer Architecture &amp; Organization Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Computer Organization and Design, 2nd Ed., by David A. Patterson and John L. Hennessy, Morgan 1997,</li>
+                                                                       <li>Kauffmann,Computer System Architecture by M. Mano, 2001, Prentice-Hall.</li>
+                                                                       <li>Computer Architecture- Nicholas Carter, 2002, T.M.H.</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://vlabs.iitkgp.ernet.in/coa/" target="_blank">IIT KHARAGPUR</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://vlabs.iitkgp.ernet.in/se/" target="_blank"><h4 style="color: #430079;">Software Engineering Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Software Engineering ? A Practitioner‟ s Approach, Roger S. Pressman, 1996, MGH.</li>
+                                                                       <li>Software Engineering by Ian sommerville, Pearson Edu, 5th edition, 1999</li>
+                                                                       <li>An Integrated Approach to software engineering by Pankaj jalote , 1991 Narosa</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://vlabs.iitkgp.ernet.in/se/" target="_blank">IIT KHARAGPUR</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse01-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Data Structures Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Fundamentals of Data structures by Ellis Horowitz &amp; Sartaj Sahni, Pub, 1983,AW</li>
+                                                                       <li>Data Structures and Program Design in C By Robert Kruse, PHI,</li>
+                                                                       <li>Theory &amp; Problems of Data Structures by Jr. Symour Lipschetz, Schaum?s outline by TMH</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse01-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse02-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Computer Programming Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>The C Programming Language by Dennis Ritchie and Brian Kernighan.</li>
+                                                                       <li>The Practice of Programming by Kernighan and Pike.</li>
+                                                                       <li>Expert C Programming, Deep C Secrets by Peter van der Linden.</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse02-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse11-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Computer Organization Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li> Computer Organization and Design:The Hardware/Software Interface by David A. Patterson and John L. Hennessy</li>
+                                                                       <li>Computer Organization? by Carl Hamachar, Zvonco Vranesic and Safwat Zaky</li>
+                                                                       <li>Computer Systems Design and Architecture? by Vincent P. Heuring and Harry F. Jordan</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse11-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://ssp-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Speech Signal Processing Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Signal &amp; System ? Simon Hykin &amp; Barry Van Veen</li>
+                                                                       <li>Signals &amp; System Oppenheim &amp; Schafer</li>
+                                                                       <li>Discrete Time Signal Processing ? Oppenheim &amp; Schafer</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://ssp-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse18-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Computer Graphics Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Computer
+ Graphics Principles and Practices second edition by James D. Foley, 
+Andeies van Dam, Stevan K. Feiner and Johb F. Hughes, 2000, Addision 
+Wesley</li>
+                                                                       <li>Graphics,
+ GUI, Games &amp; Multimedia Projects in C by Pilania &amp; Mahendra, 
+Standard Publ. Computer Graphics Secrets and solutions by Corrign John, 
+1994, BPV</li>
+                                                                       <li>Introduction to Computer Graphics By N. Krishanmurthy T.M.H 2002</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse18-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse19-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Image Processing Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>Digital Image Processing? by Rafael C. Gonzalez and Richard E. Woods</li>
+                                                                       <li>Image Processing, Analysis and Machine Vision? by Milan Sonka, Vaclav Hlavac and Roger Boyle</li>
+                                                                       <li>Fundamentals of Digital Image Processing by Anil K. Jain</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>KUK, MDU, RTU, UPTU, IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse19-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cl-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Computational Linguistics Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                    <span>No book found in record.</span>
+                                                               </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cl-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://nlp-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Natural Language Processing Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                    <span>No book found in record.</span>
+                                                               </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://nlp-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://vlab.amrita.edu/index.php?sub=78" target="_blank"><h4 style="color: #430079;">Wireless Sensor Network Remote Triggered Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                    <span>No book found in record.</span>
+                                                               </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <span>No syllabus found in record.</span>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://vlab.amrita.edu/index.php?sub=78" target="_blank">AMRITA VISHWA VIDYAPEETHAM</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                          <div class="row row-flex labs">
+                  <div class="col-md-9 col-sm-9 col-xs-12 lab-col-1">
+                      <div class="content">
+                          <a href="http://cse29-iiith.vlabs.ac.in/" target="_blank"><h4 style="color: #430079;">Cryptography Lab</h4></a>
+                      </div> 
+                       <div class="row row-flex">
+                        <div class="col-md-12 col-sm-12 col-xs-12 ref-main-div">
+                            <div class="content"> 
+                               <div class="row ref-div">
+                                    <div class="ref-book"> Reference Books <i class="fa fa-chevron-down ref-icon"></i></div>
+                                    <div class="syll-map">Syllabus Mapping <i class="fa fa-chevron-down syll-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="ref-book-detail"> 
+                               <p style="">Reference Books</p> 
+                               <ol>
+                                                                     <li>william stallings - network security</li>
+                                                                       <li>cryptography and network security by wade trappe</li>
+                                                                       <li>Network Management by U. Dlack (MGH)</li>
+                                                                 </ol> 
+                            </div>
+                            <div class="syll-map-detail">
+                                <p style="">Syllabus Mapping</p> 
+                                <ol>
+                                   <li>IPU (UG)</li>                                </ol> 
+                            </div>
+                        </div> 
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 lab-col-2">
+                      <div class="content" style="text-align: center;">
+                          <h4><a href="http://cse29-iiith.vlabs.ac.in/" target="_blank">IIIT HYDERABAD</a></h4> 
+                      </div>
+                  </div> 
+                </div>
+              
+                    <div class="space30"></div>
+          <div class="blink" id="popup" style="font-size: 16px; font-weight: bold; opacity: 0.920755;">
+          <img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/click-here.png" style="margin-top: 8px;" width="50px">&nbsp;
+          <a id="popup-txt" href="http://vlab.co.in/ba-nptel-labs-computer-science-and-engineering">
+          Click Here for Related NPTEL video lectures</a>
+          </div>
+          <div class="space30"></div>
+                  	</div>
+        	<div id="rightColm" class="col-md-3">
+        		<h3 style="color:#fff;">Announcements</h3>
+            <div class="use_cnt ansmt-txt" style="padding: 15px 0 0 0 !important;"> 
+                <div id="marquee_replacement" onmouseout="startit();" onmouseover="stop();" style="background: #fff;">
+                    <p class="spacer"></p>
+                                                <p class="ansmt-sub-txt"><a target="_blank" href="http://209.211.220.205/feedback/Registration.html">*<b> Click here for NCs Registration.</b></a></p>
+                                                    <p class="ansmt-sub-txt"><a target="_blank" href="http://209.211.220.205/feedback/Loginform.html"><b>*</b> <b>Click here for NCs Login.</b></a></p>
+                                                    <p class="ansmt-sub-txt"><b>* State-Level workshop on Virtual Labs is scheduled to be held on 6th April 2019 at Swami Keshvanand Institute of Technology
+Management &amp; Gramothan, Jaipur</b> <i>Registrations are starting from 20th March 2019.</i></p>
+                                                    <p class="ansmt-sub-txt"><a target="_blank" href="http://209.211.220.205/Newsletter/2nd_Edition_of_aabhasi.pdf"><b>*</b><b> 2nd Edition of Newsletter.</b></a></p>
+                                            <p class="spacer"></p>
+                </div> 
+            </div>
+        		 
+             <section class="inner-slider"> 
+                <div class="skdslider" style="height: 227px;"><div id="innerSlider" style="height: 227px;">
+                    <div class="slide" style="position: absolute; left: 0px; top: 0px; bottom: 0px; right: 0px; width: 262.5px; display: block; opacity: 0.442011;">
+                        <img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/image1.gif">
+                        <!--Slider Description example-->
+                        <div class="slide-desc"> 
+                        </div>
+                    </div>
+                    <div class="slide active" style="position: absolute; left: 0px; top: 0px; bottom: 0px; right: 0px; width: 262.5px; display: block; opacity: 0.557989;">
+                        <img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/image2.gif">
+                         <div class="slide-desc"> 
+                        </div>
+                    </div>
+                    <div class="slide" style="position: absolute; left: 0px; top: 0px; bottom: 0px; right: 0px; width: 262.5px; display: none;">
+                        <img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/image3.gif">
+                         <div class="slide-desc"> 
+                        </div>
+                    </div> 
+                    <div class="slide" style="position: absolute; left: 0px; top: 0px; bottom: 0px; right: 0px; width: 262.5px; display: none;">
+                        <img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/image4.gif">
+                         <div class="slide-desc"> 
+                        </div>
+                    </div> 
+                    <div class="slide" style="position: absolute; left: 0px; top: 0px; bottom: 0px; right: 0px; width: 262.5px; display: none;">
+                        <img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/image5.gif">
+                         <div class="slide-desc"> 
+                        </div>
+                    </div>  
+                </div><ul class="slide-navs"><li class=""></li><li class="active"></li><li class=""></li><li class=""></li><li class=""></li></ul><a class="pause"></a></div> 
+            </section> 
+        	</div>
+        </div>
+    </div>
+</section>
+<!--FOOTER-->
+<!--FOOTER-->
+
+<section class="footer">
+    <footer> 
+        <div class="ftr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12"> 
+                        <p class="ftr_head">Quick Links</p>
+                        <ul class="ftr_details">
+                            <li><a href="http://209.211.220.205/feedback/feedback.html" target="_blank">Lab Feedback Form</a></li>
+                            <li><a href="http://209.211.220.205/labassessment/assessmentform.html" target="_blank">Lab Assessment Form</a></li>
+                            <li><a href="http://209.211.220.205/vlabiitece/" target="_blank">Lab Developed by NC</a></li>
+                            <li><a href="http://vlab.co.in/faq">FAQ</a></li>
+                            <li><a href="http://www.sakshat.ac.in/">Shakshat Portal</a></li>
+                        </ul>
+                    </div>
+                     <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12"> 
+                        <p class="ftr_head">About VLAB</p>
+                        <ul class="ftr_details">
+                            <li><a href="http://vlab.co.in/">Home</a></li>
+                            <li><a href="http://vlab.co.in/about-us">About us</a></li>
+                            <li><a href="http://vlab.co.in/gallery.php">Gallery</a></li>
+                            <li><a href="http://vlab.co.in/contact-us">Contact Us</a></li> 
+                        </ul>
+                    </div>
+                     <div class="col-md-2 col-lg-2 col-xs-12 col-sm-12 bdr-ftr">
+                        <p class="ftr_head"></p>
+                        <ul class="ftr_lst">
+                           <li><span style="margin-left: 20px;"></span><img src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/qr-code.png" width="110"></li>
+                        </ul>
+                    </div> 
+                    <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                        <p class="ftr_head"><u>Get In Touch With Us</u></p>
+                        <ul class="ftr_lst"> 
+                            <li></li>
+                            <li><i class="fa fa-envelope ftr_fa_icn"></i>&nbsp;&nbsp;support@vlab.co.in</li>
+                            <li><i class="fa fa-phone ftr_fa_icn"></i>&nbsp;&nbsp; Phone(L) - 011-26582050</li>
+                            <li><i class="fa fa-map-marker ftr_fa_icn"></i>&nbsp;&nbsp;Wireless Research Lab <br>Room No - 206/IIA <br>Bharti School of Telecom<br> Indian Institute of Technology Delhi<br>Hauz Khas, New Delhi-110016
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+ <!--similar venues ends-->
+<div class="share">
+    <button class="fb-btn" onclick="javascript:fbshareCurrentPage()" target="_blank" title="Share on Facebook"><i class="fa fa-facebook" aria-hidden="true" style="color:white;"></i></button><br>
+    <button class="t-btn" onclick="javascript:twshareCurrentPage()" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true" style="color:white;"></i></button><br>
+    <button class="g-btn" onclick="javascript:gplusshareCurrentPage()" target="_blank" title="Share on Google Plus"><i class="fa fa-google-plus" aria-hidden="true" style="color:white;"></i></button><br> 
+    <button class="yt-btn" target="_blank" title="Share on You Tube"><i class="fa fa-youtube" aria-hidden="true" style="color:white;"></i></button><br>
+    <button class="wa-btn" onclick="javascript:washareCurrentPage()" target="_blank" title="Share on WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true" style="color:white;"></i></button> 
+</div> 
+<!--FOOTER ENDS-->
+<div class="toTop" style="right: -90px;"><i class="fa fa-angle-up fa-4x"></i></div>
+<script src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/jquery.js"></script>
+<script src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/bootstrap.js"></script>
+<script src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/main.js"></script>
+<script src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/skdslider_002.js"></script>
+<script src="Virtual%20Labs%20-%20Computer%20Science%20&amp;%20Engineering_files/skdslider.js"></script> 
+<script>
+function blinker() {
+    $('.blink').fadeOut(1200).fadeIn(1200);
+}
+setInterval(blinker, 2400);
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64858878-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--FOOTER ENDS-->
+
+
+</body></html>
